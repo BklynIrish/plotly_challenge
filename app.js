@@ -101,7 +101,7 @@ d3.json(sampleData).then(function(data) {
                 gauge: {
                     type: 'pie',
                     shape: "angular",
-                    'bar': { 'color': "red" },
+                    'bar': { 'color': "purple" },
                     'axis': {
                         'range': [0, 10],
                         'tick0': 0,
@@ -111,16 +111,16 @@ d3.json(sampleData).then(function(data) {
                         'tickfont': { 'size': 20 }
                     },
                     'steps': [
-                        { 'range': [0, 1], 'color': 'rgb(0,0,If )' },
-                        { 'range': [1, 2], 'color': 'rgb(25,25,255)' },
-                        { 'range': [2, 3], 'color': 'rgb(50,50,255)' },
-                        { 'range': [3, 4], 'color': 'rgb(75,75,255)' },
-                        { 'range': [4, 5], 'color': 'rgb(100,100,255)' },
-                        { 'range': [5, 6], 'color': 'rgb(125,125,255)' },
-                        { 'range': [6, 7], 'color': 'rgb(150,150,255)' },
-                        { 'range': [7, 8], 'color': 'rgb(175,175,255)' },
-                        { 'range': [8, 9], 'color': 'rgb(200,200,255)' },
-                        { 'range': [9, 10], 'color': 'rgb(225,225,255)' }
+                        { 'range': [0, 1], 'color': 'rgb(50,15,150)' },
+                        { 'range': [1, 2], 'color': 'rgb(60,25,160)' },
+                        { 'range': [2, 3], 'color': 'rgb(70,50,170)' },
+                        { 'range': [3, 4], 'color': 'rgb(80,75,180)' },
+                        { 'range': [4, 5], 'color': 'rgb(90,100,190)' },
+                        { 'range': [5, 6], 'color': 'rgb(100,125,200)' },
+                        { 'range': [6, 7], 'color': 'rgb(110,150,210)' },
+                        { 'range': [7, 8], 'color': 'rgb(120,175,220)' },
+                        { 'range': [8, 9], 'color': 'rgb(130,200,230)' },
+                        { 'range': [9, 10], 'color': 'rgb(140,225,240)' }
 
                     ],
 
@@ -155,4 +155,5 @@ function updateIDList(bacteriaIDs) {
         var row = d3.select("#selDataset");
         row.append("option").text(id);
     })
+
 }
