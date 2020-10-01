@@ -101,7 +101,7 @@ d3.json(sampleData).then(function(data) {
                 gauge: {
                     type: 'pie',
                     shape: "angular",
-                    'bar': { 'color': "purple" },
+                    'bar': { 'color': "lime" },
                     'axis': {
                         'range': [0, 10],
                         'tick0': 0,
