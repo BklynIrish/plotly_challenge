@@ -1,3 +1,7 @@
+The Dashboard can be seen at the following site.  It was simply deployed through GitHub Pages. But this is the product of this project.  Once on the site, you must change the dropdown menu that says 940 to any other number and you'll see the beauty of the dashboard.
+https://bklynirish.github.io/plotly_challenge/
+
+
 # Plot.ly Homework - Belly Button Biodiversity
 
 ![Bacteria by filterforge.com](Images/bacteria.jpg)
