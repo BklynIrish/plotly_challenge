@@ -45,7 +45,7 @@ function optionChanged(x) {
     console.log(x);
     d3.select("#sample-metadata").selectAll("p").remove();
     Object.entries(resultArray[0]).forEach(([key, value]) => {
-      //var row doesn't have to be in each iteration, the alternative would be to remofe at 139 and replace at 134
+      //var row doesn't have to be in each iteration, the alternative would be to remove at 139 and replace at 134
       metadatapanel.append("p").text(`${key} : ${value}`)  
     
     })
